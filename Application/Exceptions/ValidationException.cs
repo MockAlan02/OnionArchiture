@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Application.Exceptions
 {
-    class ValidationException : Exception
+   public class ValidationException : Exception
     {
         public List<string> Errors { get; }
 
